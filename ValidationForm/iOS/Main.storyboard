@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6750" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6735"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sign Up" lineBreakMode="tailTruncation" minimumFontSize="10" id="4" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="44" width="560" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17" weight="black"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="20" y="44" width="280" height="30"/>
+                                </variation>
+                                <constraints>
+                                    <constraint id="23" firstAttribute="height" constant="30"/>
+                                </constraints>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="97" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="550" width="560" height="30"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <constraints>
+                                    <constraint id="104" firstAttribute="width" constant="560"/>
+                                </constraints>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="108" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Full Name">
+                                <rect key="frame" x="20" y="82" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="114" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Alias">
+                                <rect key="frame" x="20" y="117" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="115" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Email">
+                                <rect key="frame" x="20" y="152" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="122" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Age">
+                                <rect key="frame" x="20" y="188" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="123" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Mobile Number (e.g. 0127654321)">
+                                <rect key="frame" x="20" y="222" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="134" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Employee Code (e.g. A9999)">
+                                <rect key="frame" x="20" y="257" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" customColorSpace="calibratedWhite" colorSpace="calibratedRGB" red="0.8666666666666667" green="0.86274509803921573" blue="0.87058823529411766" alpha="1"/>
+                        <constraints>
+                            <constraint id="20" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="4" secondAttribute="trailing" constant="20"/>
+                            <constraint id="21" firstItem="4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="44"/>
+                            <constraint id="24" firstItem="4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20"/>
+                            <constraint id="102" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="97" secondAttribute="trailing" constant="20"/>
+                            <constraint id="103" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="97" secondAttribute="bottom" constant="20"/>
+                            <constraint id="105" firstItem="97" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20"/>
+                            <constraint id="111" firstItem="108" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20"/>
+                            <constraint id="112" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="108" secondAttribute="trailing" constant="20"/>
+                            <constraint id="113" firstItem="108" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="62"/>
+                            <constraint id="116" firstItem="114" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20"/>
+                            <constraint id="117" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="114" secondAttribute="trailing" constant="20"/>
+                            <constraint id="118" firstItem="114" firstAttribute="top" secondItem="108" secondAttribute="bottom" constant="5"/>
+                            <constraint id="119" firstItem="115" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20"/>
+                            <constraint id="120" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="115" secondAttribute="trailing" constant="20"/>
+                            <constraint id="121" firstItem="115" firstAttribute="top" secondItem="114" secondAttribute="bottom" constant="5"/>
+                            <constraint id="124" firstItem="122" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20"/>
+                            <constraint id="125" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="122" secondAttribute="trailing" constant="20"/>
+                            <constraint id="128" firstItem="123" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20"/>
+                            <constraint id="129" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="123" secondAttribute="trailing" constant="20"/>
+                            <constraint id="132" firstItem="123" firstAttribute="top" secondItem="122" secondAttribute="bottom" constant="5"/>
+                            <constraint id="133" firstItem="122" firstAttribute="top" secondItem="115" secondAttribute="bottom" constant="5"/>
+                            <constraint id="135" firstItem="134" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20"/>
+                            <constraint id="136" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="134" secondAttribute="trailing" constant="20"/>
+                            <constraint id="137" firstItem="134" firstAttribute="top" secondItem="123" secondAttribute="bottom" constant="5"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="60"/>
+                                <exclude reference="61"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="60"/>
+                                <include reference="61"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="btnSubmit" destination="97" id="name-outlet-97"/>
+                        <outlet property="txtFullName" destination="108" id="name-outlet-108"/>
+                        <outlet property="txtAlias" destination="114" id="name-outlet-114"/>
+                        <outlet property="txtAge" destination="122" id="name-outlet-122"/>
+                        <outlet property="txtMobileNumber" destination="123" id="name-outlet-123"/>
+                        <outlet property="txtEmail" destination="115" id="name-outlet-115"/>
+                        <outlet property="txtEmployeeCode" destination="134" id="name-outlet-134"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+</document>

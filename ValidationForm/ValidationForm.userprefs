@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="iOS/ValidationForm.iOS.csproj">
+  <MonoDevelop.Ide.ItemProperties.ValidationForm.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.LGD85524d37b0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/ViewController.cs">
+    <Files>
+      <File FileName="iOS/Main.cs" Line="4" Column="1" />
+      <File FileName="ValidationForm/Com/IsGoodStuff/Validator.cs" Line="84" Column="13" />
+      <File FileName="iOS/ViewController.cs" Line="88" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ValidationForm.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.88B56673-57C0-478F-B43D-9D19BF4C3D02" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
